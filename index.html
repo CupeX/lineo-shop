@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tmpl7</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/flex.css" />
+        <script src="https://kit.fontawesome.com/e4496f5a58.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+            
+
+        
+        <!-- sticky header starts here -->
+        <div class="stickyHeader parent h-center column">
+
+            <!-- sticky header 1 starts here -->
+            <div class="sticky1 ">
+                <div class="parent h-center">
+                    <div class="maxWidth parent">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>                
+            </div>
+            <!-- sticky header 1 ends here -->
+
+            <!-- sticky header 2 starts here -->
+            <div class="sticky2">
+
+                <div class="parent h-center">
+
+                    <div class="maxWidth parent h-center">
+
+                        <div class="stickyBox stickyBox1 parent h-center v-center">
+                            <img src="images/slide1.jpg" alt="">
+                        </div>
+    
+                        <div class="stickyBox parent h-center v-center column">
+                            <h4>Trimer za obrve CareBrow 3.0</h4>
+    
+                            <!-- price calculator -->
+                            <div class="priceShown parent v-center">
+                                <p id="oldPrice1" class="lineThrough">49.99 €
+                                <h3 id="newPrice1">19.99 € + Besplatna dostava</h3></p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="stickyBox stickyBox3 parent h-center column">
+    
+                            <div class="rating parent">
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                            </div>
+        
+                            <div >
+                                <a href="javascript:void(0);">412 kupaca preporučuje ovaj proizvod 
+                                    <p class="far fa-check-circle" src="" alt=""></a>
+                            </div>
+    
+                        </div>
+    
+                        
+                        <div class="stickyBox stickyBox4 parent h-center">
+                            <button class="orangeButton parent h-center v-center">
+                                <img src="images/bag.png" alt="">
+                                <p>dodaj u košaricu</p>
+                            </button>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+            </div>
+            <!-- sticky header 2 ends here -->
+
+
+        </div>
+        <!-- sticky header ends here -->
+
+
+        <!-- Header starts here -->
+        <div class="header parent h-center">
+            <div class="maxWidth parent h-center">
+                <!--Logo Holder starts here-->
+                <div class="logoHolder">
+                    <img src="images/logo.png" alt="" />
+                </div>
+                <!-- Logo Holder ends here -->
+
+                <!-- Header Right starts here -->
+                <div class="headerRight parent">
+                    <!-- Mail Box starts here  -->
+                    <div class="mailBox parent h-center column">
+                        <p>IMATE LI KAKVO PITANJE?</p>
+                        <a href="javascript:void(0);">info@lineoshop.it</a>
+                    </div>
+                    <!-- Mail box ends here -->
+
+                    <!-- Cart Box starts here -->
+                    <div class="cartBox parent h-center v-center">
+                        
+                        <p class="toolTipText parent h-center v-center" id="dropText">Nemate proizvoda u košarici</p>     
+                        <div class="cartCount parent h-center v-center">
+                            <p id="productQty">0</p>  
+                                                 
+                        </div>
+                    </div>
+                    <!-- Cart Box ends here -->
+                </div>
+                <!-- Header right ends here -->
+            </div>
+        </div>
+        <!--Header ends here-->
+
+        <!-- Main section starts here -->
+        <div class="main parent h-center">
+            <div class="maxWidth2 parent h-center column">
+                <div class="firstMainDiv parent">
+                     <!-- Left main starts here -->
+                <div class="left">
+                    <!-- Slides starts here -->
+                    <div class="slideGallery">
+                        <div id="redDiscount">-61%</div>
+
+                        <div class="slidesContainer">
+                            <div class="mySlides">
+                                <img src="images/slide1.jpg" />
+                            </div>
+
+                            <div class="mySlides">
+                                <img src="images/slide2.jpg" />
+                            </div>
+
+                            <div class="mySlides">
+                                <img src="images/slide3.jpg" />
+                            </div>
+
+                            <div class="mySlides">
+                                <img src="images/slide4.jpg" />
+                            </div>
+
+                            <div class="mySlides">
+                                <img src="images/slide5.jpg" />
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="next" onclick="plusSlides(1)">❯</a>
+                            <a id="zoomSlides">+</a>
+                        </div>
+                        <!-- Slides ends here -->
+
+                        <!-- "Dots" img starts here -->
+                        <div class="parent wrap">
+                            <div class="dotBox parent">
+                                <img class="dotImg" src="images/slide1.jpg" onclick="currentSlide(1)" />
+                            </div>
+                            <div class="dotBox parent">
+                                <img class="dotImg" src="images/slide2.jpg" onclick="currentSlide(2)" />
+                            </div>
+                            <div class="dotBox parent">
+                                <img class="dotImg" src="images/slide3.jpg" onclick="currentSlide(3)" />
+                            </div>
+                            <div class="dotBox parent">
+                                <img class="dotImg" src="images/slide4.jpg" onclick="currentSlide(4)" />
+                            </div>
+                            <div class="dotBox parent">
+                                <img class="dotImg" src="images/slide5.jpg" onclick="currentSlide(5)" />
+                            </div>
+                        </div>
+                        <!-- "Dots" img ends here -->
+                    </div>
+                </div>
+                <!-- Left main ends here -->
+                <!-- Right main starts here -->
+                <div class="right parent column">
+                    <h1>Trimer za obrve CareBrow 3.0</h1>
+
+                    <div class="rating parent">
+                        <img src="images/star.svg" alt="" />
+                        <img src="images/star.svg" alt="" />
+                        <img src="images/star.svg" alt="" />
+                        <img src="images/star.svg" alt="" />
+                        <img src="images/star.svg" alt="" />
+                    </div>
+
+                    <div >
+                        <a href="javascript:void(0);">412 kupaca preporučuje ovaj proizvod 
+                            <p class="far fa-check-circle" src="" alt=""></a>
+                    </div>
+
+                    <a></a>
+
+                    <button class="redButton">🔥 Ograničena ponuda - ostalo je samo 16 komada</button>
+
+                    <!-- Main text start -->
+                    <div class="mainText">
+                        <p>
+                            CareBrow profesionalni trimer za obrve garantira vam brzo i učinkovito uklanjanje dlaka s
+                            obrva. Ovaj lagani i prijenosni alat omogućuje vam brzo i elegantno čupanje obrva bilo kad i
+                            bilo gdje - kod kuće, na poslu ili u bilo kojoj drugoj situaciji. Poseban dizajn vrha i
+                            integrirano LED svjetlo osiguravaju precizno i ​​bezbolno uklanjanje dlaka. Pogodno za
+                            osjetljivu kožu.
+                            <strong>
+                                Mikro oštrice (napredna tehnologija mikro oštrica) režu kosu neposredno iznad korijena,
+                                osiguravajući trajno uklanjanje dlaka.
+                            </strong>
+                        </p>
+                    </div>
+                    <!-- Main text end -->
+
+                    <h3>
+                        Naručite danas i primite ga
+                        <span class="redSpan"> u utorak 17. 11. </span>!
+                    </h3>
+
+                    <!-- Order starts here -->
+                    <!--Price caluclator start-->
+                    <div class="priceShown parent v-center">
+                        <p id="oldPrice" class="lineThrough">49.99 €
+                            <h3 id="newPrice">19.99 € + Besplatna dostava</h3></p>
+                    </div>
+
+                    <div class="parent price column">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td class="priceBox">Najbolji prodavac</td>
+                                    <td></td>
+                                </tr>
+                                <tr class="backgroundSelect responsiveColumn">
+                                    <td class="tableBox tableClick0 backgroundChange" data-quantity="1">
+                                        <p><strong>1x</strong> 19,99 €</p>
+                                        <span>/kom.</span>
+                                    </td>
+                                    <td class="tableBox tableClick1" data-quantity="2">
+                                        <p><strong>2x</strong> 15,49 €</p>
+                                        <span>/kom.</span>
+                                    </td>
+                                    <td class="tableBox tableClick2" data-quantity="3">
+                                        <p><strong>3x</strong> 13,49 €</p>
+                                        <span>/kom.</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--Price Calculator end-->
+
+                    <!-- Order ends here -->
+                    <button class="orangeButton parent h-center v-center">
+                        <img src="images/bag.png" alt="">
+                        <p>dodaj u košaricu</p>
+                    </button>
+                    
+
+                    <p class="smallText">100% jamstvo zadovoljstva - vratite novac, bez postavljanja pitanja!</p>
+                </div>
+                <!-- Right main ends here -->
+                </div>
+
+                <!--badge starts here-->
+                <div class="secondMainDiv parent h-center">
+
+                    <div class="badgeFirst parent">
+
+                        <div class="badge parent v-center column">
+                            <img class="fas fa-shipping-fast" src="" alt="">
+                            <p >Brza i sigurna dostava</p>
+                        </div>
+
+                        <div class="badge parent v-center column">
+                            <img class="fas fa-check-circle" src="" alt="">
+                            <p>Sigurni načini plaćanja</p>
+                        </div>
+
+                    </div>
+
+                    <div class="badgeSecond parent">
+
+                        <div class="badge parent v-center column">
+                            <img class="fas fa-gifts" src="" alt="">
+                            <p>Kvalitetna kupnja</p>
+                        </div>
+                        
+                        <div class="badge parent v-center column">
+                            <img class="fas fa-user-lock" src="" alt="">
+                            <p>100% jamstvo zadovoljstva</p>
+                        </div>       
+                    
+                    </div>
+                    
+                </div>
+ 
+                <!--badge div ends here-->
+            </div>
+        </div>
+        <!-- Main section ends here -->
+
+        <!-- about section starts here -->
+        <div class="about parent h-center">
+            <div class="maxWidth2 parent column">
+
+                <!-- about section starts here -->
+                <div class="ulWrapper">
+                    <ul id="selectionLi">
+                        <li id="describe" class="activeAbout">Opis</li>
+                        <li id="delivery">Dostava</li>
+                        <li id="customerRating">Ocjene kupaca</li>
+                    </ul>
+                </div>                
+                <!-- about section ends here -->
+
+                <!-- about content starts here -->
+                <div class="describe">
+
+                    <div class="describeBox">
+                        <h2>Nova mikrobladna tehnologija</h2>
+                        <p>Podrezivanjem obrva neposredno iznad korijena, mikro oštrice (napredna tehnologija mikro oštrica) uklanjaju i najkraće dlačice.</p>
+                        <img src="images/gif1.gif" alt="">
+                        <img src="images/img2.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>Jednostavno i precizno</h2>
+                        <p>Više ne morate plaćati skupe kozmetičke tretmane. Uz CareBrow, trimer za obrve, vaše će obrve uvijek biti savršene.</p>
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>BRZ I UČINKOVITI DEPILATOR OBRVA</h2>
+                        <p>Točno i bezbolno podrezivanje obrva, kod kuće, s prijateljima ili na poslu.</p>
+                        <img src="images/gif2.gif" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>KOŽA - PRIJATELJSKA</h2>
+                        <p>Vrh i oštrice dizajnirani su za još brže, bezbolno i učinkovito uklanjanje dlaka s obrva. Tehnologija mikro oštrica posebno je prikladna za osjetljivu kožu.</p>
+                        <img src="images/img3.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>BEZ RAZDRAŽAVANJA I CRVENOSTI</h2>
+                        <p>Ovaj sigurni i certificirani trimer za obrve testirali su stručnjaci. Bolja, bezbolna alternativa bolnom depiliranju voskom i navojem.</p>
+                        <img src="images/img4.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>BRZE ISPRAVKE NA UTRICI</h2>
+                        <p>Ergonomski dizajn i mala težina omogućit će vam da uvijek imate pri ruci trimer za obrve. Povoljno za čuvanje.</p>
+                        <img src="images/img5.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>INTEGRIRANO LED SVJETLO</h2>
+                        <p>Praktično integrirano LED svjetlo omogućuje vam uočavanje i najmanjih dlačica i iscrtavanje obrva točno onako kako želite.</p>
+                        <img src="images/img6.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>PUNJENJE USB KABELOM</h2>
+                        <p>Napredna tehnologija brzog punjenja.</p>
+                        <img src="images/img7.jpg" alt="">
+                    </div>
+
+                    <div class="describeBox">
+                        <h2>DEMO VIDEO O PROIZVODU</h2>
+                        <img src="images/slide1.jpg" alt="">
+                    </div>
+
+                    <!-- describe list starts here -->
+
+                    <div class="describeList">
+
+                        <h3>Značajke:</h3>
+                        <ul>
+                            <li>Punjenje: USB kabel</li>
+                            <li>Integrirano LED svjetlo</li>
+                            <li>Težina: 0,031 Kg</li>
+                            <li>Mali i prijenosni uređaj</li>
+                            <li>Vrh se može oprati vodom</li>
+                            <li>Tehnologija mikro oštrica</li>
+                        </ul>
+
+                        <h3>Paket sadrži:</h3>
+                        <ul>
+                            <li>1 CareBrow trimer za obrve</li>
+                        </ul>
+
+                        <h3>Upute za korištenje:</h3>
+                        <ul>
+                            <li>Uklonite čep.</li>
+                            <li>Uključite uređaj pritiskom na tipku.</li>
+                            <li>Ispružite kožu i nježno pritisnite na nju trimerom.</li>
+                            <li>Pazite da trimer nije u kutnom položaju. Trebali biste ga držati okomito na kožu.</li>
+                            <li>Nacrtajte obrve kako želite nježnim i polaganim pomicanjem trimera.</li>
+                            <li>Nakon završetka isključite trimer i vratite poklopac.</li>
+                        </ul>
+
+                    </div>
+                    <!-- describe list ends here -->
+
+                    <!-- comments starts here -->
+
+                    <div class="comments">
+
+                        <div class="commentBox parent v-center column">
+                            <p> Sara ⭐⭐⭐⭐⭐</p>
+                            <p>"Super je, treba mi puno vremena prije nego što ponovno moram počupati obrve."</p>
+                            <img src="images/comm1.jpg" alt="">
+                        </div>
+
+                        <div class="commentBox parent v-center column">
+                            <p> Dorotea ⭐⭐⭐⭐⭐</p>
+                            <p>"Slatko! Kad se moram brzo pripremiti za izlazak, stvarno je idealno! :)"</p>
+                            <img src="images/comm2.jpg" alt="">
+                        </div>
+
+                        <div class="commentBox parent v-center column">
+                            <p> Marko ⭐⭐⭐⭐⭐</p>
+                            <p>"Vrlo precizno nacrtajte obrve. Sjajno, hvala!"</p>
+                            <img src="images/comm3.jpg" alt="">
+                        </div>
+
+                        <p>* Istraživanje na uzorku od 180 ljudi pokazalo je da je najmanje 90% ispitanika ocijenilo proizvod dobrim, a 75% ispitanika smatra da je ovaj uklanjač dlaka imao dugotrajniji učinak od ostalih proizvoda iste vrste.</p>
+                    </div>
+                    <!-- comments ends here -->
+
+                </div>
+                <!-- about content ends here -->
+
+                <!-- delivery section starts here -->
+                <div class="delivery">
+
+                    <div class="delivery1">
+                        <p>Dostavu vrši GLS. U trenutku isporuke GLS vam šalje e-poštu (ako ste je dostavili) s vašim brojem za praćenje pomoću koje možete pratiti kretanje pošiljke na web mjestu kurira <a href="javascript:void(0);">https://www.gls-italy.com/</a></p>
+
+                        <p>GLS vam na dan isporuke šalje drugu obavijest putem tekstualne poruke. U slučaju neisporuke, kurir ostavlja obavijest i vraća se sljedeći radni dan. Ako ste odabrali način plaćanja prilikom dostave (pouzećem), uplaćeni iznos platite u gotovini izravno GLS-u.</p>
+
+                        <p>Dostava se očekuje za 2-3 radna dana.</p>
+
+                        <p>Za plaćanje pouzećem plaća se dodatni trošak od 3,50 eura.</p>
+
+                        <p>Za plaćanje Paypal-om ili kreditnom karticom nema dodatnih troškova.</p>
+
+                        <p>Dostava na otoke i za mjesta u nepovoljnom položaju vrši se za 3-4 radna dana, na isti način uobičajena dostava od 2 do 3 radna dana nije moguća za područja koja se opslužuju svakih 48-72 sata.</p>
+
+                        <p>Nije moguće izvršiti narudžbu uz plaćanje dostavom za sljedeće provincije: Catania (CT), Cosenza (CS), Crotone (KR), Catanzaro (CZ), Trapani (TP), Siracusa (SR), Napulj (NA) , Palermo (PA), Reggio Calabria (RC), Agrigento (AG), Ragusa (RG), Salerno (SA), Messina (ME), Massa-Carrara (MS), Taranto (TA).</p>
+
+                        <p>Rok isporuke odnosi se isključivo na dostupne artikle i traje od trenutka stvarne isporuke. U slučaju rasprodaje ili u drugim iznimnim slučajevima, rokovi isporuke mogu biti i duži, unatoč odabiru "brze" dostave. Dostava također ovisi o GLS logistici.</p>
+
+                        <p>Za manje otoke, venecijansku lagunu i druga mjesta koja su teško dostupna, GLS primjenjuje nadoplatu. Za dodatna pitanja dostupni smo na info@lineoshop.it.</p>
+
+                    </div>
+
+                    <!-- <div class="delivery2">
+                        <h3>
+                            Naručite danas i primite ga
+                            <span class="redSpan"> u utorak 17. 11. </span>!
+                        </h3>
+                    </div> -->
+                </div>
+                <!-- delivery section ends here -->
+
+                <!-- customer rating starts here -->
+                <div class="customerRating">
+
+                    <!-- customer rating wrapper starts here -->
+                    <div class="customerRatingWrapper">
+                        <div class="customerRatingBox">
+                            <h3>Marko</h3>
+
+                            <div class="rating parent">
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                            </div>
+
+                            <p>Vrlo precizno nacrtajte obrve. Veliko hvala!</p>
+                        </div>
+
+                        <div class="customerRatingBox">
+                            <h3>Dorotea</h3>
+
+                            <div class="rating parent">
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                            </div>
+
+                            <p>Slatko! Kad se moram brzo pripremiti za izlazak, stvarno je idealno! :)</p>
+                        </div>
+
+                        <div class="customerRatingBox">
+                            <h3>Sara</h3>
+
+                            <div class="rating parent">
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                                <img src="images/star.svg" alt="" />
+                            </div>
+
+                            <p>Super je, treba vam puno vremena prije nego što ponovno budete trebali čupati obrve. Toplo preporučljivo!</p>
+                        </div>
+                    </div>
+                    <!-- customer rating wrapper ends here -->
+
+                    <div class="ratingForm">
+                        <h2>PREGLEDAJTE PROIZVOD</h2>
+
+                        <p>Kako biste ocijenili ovaj proizvod? <span class="redSpan">*</span></p>
+
+                        <table>
+                            <tbody>
+                                <tr class="firstTr parent ">
+                                    <td class="firstTd parent h-center"></td>
+                                    <td class="parent h-center">1 star</td>
+                                    <td class="parent h-center">2 stars</td>
+                                    <td class="parent h-center">3 stars</td>
+                                    <td class="parent h-center">4 stars</td>
+                                    <td class="parent h-center">5 stars</td>
+                                </tr>
+                                <tr class="secondTr parent">     
+                                    <td class="firstTd parent h-center v-center">Cjelokupna ocjena</td>
+                                    <td class="parent h-center v-center"><input type="radio" name="rating"></td>
+                                    <td class="parent h-center v-center"><input type="radio" name="rating"></td>
+                                    <td class="parent h-center v-center"><input type="radio" name="rating"></td>
+                                    <td class="parent h-center v-center"><input type="radio" name="rating"></td>
+                                    <td class="parent h-center v-center"><input type="radio" name="rating"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="textForm">
+                            <div class="nameInput">
+                                <p>Ime <span class="redSpan">*</span></p>
+                                <input type="text">
+                            </div>
+    
+                            <div class="commentArea">
+                                <p>Vaša recenzija <span class="redSpan">*</span></p>
+                                <textarea name="userComment" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <button class="blueButton">Pošaljite svoju ocjenu</button>
+
+                    </div>
+
+
+                </div>
+                <!-- customer rating ends here -->
+
+            </div>
+        </div>
+        <!-- about section ends here -->
+
+        <!-- Order2 starts here -->
+        <div class="order2 parent h-center">
+            <div class="maxWidth2 parent h-center column">
+
+                <h3>
+                    Naručite danas i primite ga
+                    <span class="redSpan"> u utorak 17. 11. </span>!
+                </h3>
+                
+                 <!--Price caluclator start-->   
+                <div class="parent order2Price column">
+
+                    <table>
+                        <tbody>
+                            <tr class="backgroundSelect2 responsiveColumn">
+                                <td class=" tableBox tableClick10 backgroundChange2" data-quantity="1">
+                                    <p><strong>1x</strong> 19,99 € <span>/kom.</span></p>
+                                </td>
+                                <td class=" tableBox tableClick11" data-quantity="2">
+                                    <p><strong>2x</strong> 15,49 € <span>/kom.</span></p>
+                                </td>
+                                <td class=" tableBox tableClick12" data-quantity="3">
+                                    <p><strong>3x</strong> 13,49 € <span>/kom.</span></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+                <!--Price Calculator end-->
+
+                
+                <button class="orangeButton parent h-center v-center" onsubmit="myFunction()">
+                    <img src="images/bag.png" alt="">
+                    <p>dodaj u košaricu</p>
+                </button>
+            </div>
+        </div>
+        <!-- Order2 ends here -->
+
+        <!-- Footer starts here -->
+        <div class="footer parent h-center">
+            <div class="maxWidth2 parent h-center column">
+
+                <!-- First footer starts here -->
+                <div class="firstFooter parent h-center">
+
+                    <div class="footerBox parent column">
+                        <h3>lineoshop</h3>
+                        <p>E-MAIL:</p>
+                        <a href="javascript:void(0);">info@lineoshop.it</a>
+                    </div>
+
+                    <div class="footerBox parent column">
+                        <h3>lineoshop</h3>
+                        <a href="javascript:void(0);">Tvrtka</a>
+                        <a href="javascript:void(0);">Opći komercijalni uvjeti</a>
+                        <a href="javascript:void(0);">Prigovori i zamjena</a>
+
+                    </div>
+
+                    <div class="footerBox parent column">
+
+                        <h3>Prijavite se na naš bilten</h3>
+                        <p>Primajte sve promocije izravno u pristiglu poštu.</p>
+                        <div class="mailSubscribe parent">
+                            <form action="" class="parent">
+                                <input type="text" name="email" placeholder="Mail">
+                                <button class="blueButton">Pretplati se</button>
+                            </form>                            
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- First footer ends here -->
+
+                <!-- Second footer starts here -->
+
+                <div class="secondFooter parent between">
+                    <div class="leftFooter ">
+                        <p>LineoShop © 2019-2020. Sva prava pridržana</p>
+                    </div>
+                    <div class="rightFooter">
+                        <img src="images/cards.png" alt="">
+                    </div>
+                </div>
+                <!-- Second footer ends here -->
+
+            </div>
+        </div>
+        <!-- Footer ends here -->
+
+
+        <!-- OVERLAY for slide zoom -->        
+        <div id="overlay" class="hidden"></div>
+        <!-- OVERLAY for slide zoom -->    
+
+        
+
+
+    </body>
+    <script src="js/script.js"></script>
+</html>
